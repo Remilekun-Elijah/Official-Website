@@ -114,7 +114,7 @@ input, select, textarea {
 	body, input, select, textarea {
 		color: #ffffff;
 		font-size: 17pt;
-		font-weight: 300;
+		font-weight: 250;
 		letter-spacing: 0.025em;
 		line-height: 1.65;
 	}
@@ -155,11 +155,11 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #9bf1ff !important;
+			color: #ffbb00d8 !important;
 		}
 
 		a:active {
-			color: #53e3fb !important;
+			color:#ffba00 !important;
 		}
 
 	strong, b {
@@ -1906,9 +1906,9 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		background: rgba(212, 212, 255, 0.035);
+		background: rgba(131, 131, 143, 0.219);
 		border: none;
-		border-radius: 0;
+		border-radius: 10px;
 		color: inherit;
 		display: block;
 		outline: 0;
@@ -1936,8 +1936,8 @@ input, select, textarea {
 		input[type="url"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #9bf1ff;
-			box-shadow: 0 0 0 2px #9bf1ff;
+			border-color: #ffba00;
+			box-shadow: 0 0 0 2px #ffba00;
 		}
 
 	select {
@@ -2031,14 +2031,14 @@ input, select, textarea {
 		input[type="checkbox"]:checked + label:before,
 		input[type="radio"]:checked + label:before {
 			background: #ffffff;
-			border-color: #9bf1ff;
+			border-color: #ffba00;
 			content: '\f00c';
 			color: #242943;
 		}
 
 		input[type="checkbox"]:focus + label:before,
 		input[type="radio"]:focus + label:before {
-			box-shadow: 0 0 0 2px #9bf1ff;
+			box-shadow: 0 0 0 2px #ffba00;
 		}
 
 	input[type="radio"] + label:before {
@@ -2125,11 +2125,11 @@ input, select, textarea {
 	}
 
 	a.icon.alt:hover:before {
-		background-color: #6fc3df;
+		background-color: #ffba00;
 	}
 
 	a.icon.alt:active:before {
-		background-color: #37a6cb;
+		background-color: #2a2f4a;
 	}
 
 /* Image */
@@ -2252,8 +2252,7 @@ input, select, textarea {
 		display: flex;
 		cursor: default;
 		list-style: none;
-		margin-left: -1em;
-		padding-left: 0;
+	    text-align: center;
 	}
 
 		ul.actions li {
@@ -2376,12 +2375,12 @@ input, select, textarea {
 				}
 
 					ul.pagination li > .page.active:hover {
-						background-color: #9bf1ff;
+						background-color: #ffba00;
 						color: #242943 !important;
 					}
 
 					ul.pagination li > .page.active:active {
-						background-color: #53e3fb;
+						background-color:#ffba00;
 					}
 
 			ul.pagination li:first-child {
@@ -2515,8 +2514,8 @@ input, select, textarea {
 		button:active,
 		.button:hover,
 		.button:active {
-			box-shadow: inset 0 0 0 2px #9bf1ff;
-			color: #9bf1ff;
+			box-shadow: inset 0 0 0 2px #ffba00;
+			color: #ffba00;
 		}
 
 		input[type="submit"]:active,
@@ -2525,8 +2524,8 @@ input, select, textarea {
 		button:active,
 		.button:active {
 			background-color: rgba(155, 241, 255, 0.1);
-			box-shadow: inset 0 0 0 2px #53e3fb;
-			color: #53e3fb;
+			box-shadow: inset 0 0 0 2px#ffba00;
+			color:#ffba00;
 		}
 
 		input[type="submit"].icon:before,
@@ -2650,7 +2649,7 @@ input, select, textarea {
 			button.primary:active,
 			.button.primary:hover,
 			.button.primary:active {
-				background-color: #9bf1ff;
+				background-color: #ffba00;
 				color: #242943 !important;
 			}
 
@@ -2659,7 +2658,7 @@ input, select, textarea {
 			input[type="button"].primary:active,
 			button.primary:active,
 			.button.primary:active {
-				background-color: #53e3fb;
+				background-color:#ffba00;
 			}
 
 		input[type="submit"].disabled, input[type="submit"]:disabled,
@@ -3110,7 +3109,7 @@ input, select, textarea {
 				-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 				background-color: #ffffff;
-				color: #242943;
+				color: #2a2f4a;
 				display: inline-block;
 				line-height: 1.65em;
 				margin-right: 0.325em;
@@ -3118,11 +3117,11 @@ input, select, textarea {
 			}
 
 			#header .logo:hover strong {
-				background-color: #9bf1ff;
+				background-color: #ffba00;
 			}
 
 			#header .logo:active strong {
-				background-color: #53e3fb;
+				background-color:#ffba00;
 			}
 
 		#header nav {
@@ -3140,7 +3139,6 @@ input, select, textarea {
 			flex-grow: 1;
 			height: inherit;
 			line-height: inherit;
-			background-color: #ffba00;
 		}
 
 			#header nav a {
@@ -3225,7 +3223,7 @@ input, select, textarea {
 		}
 
 			#header.alt.style1 .logo strong {
-				color: #ffba00;
+				color: #2a2f4a;
 			}
 
 		body.is-preload #header.alt {
@@ -3354,7 +3352,7 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			pointer-events: none;
-			background-color: #ffba00;
+			background-color: #ffbb00ad;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3630,25 +3628,17 @@ input, select, textarea {
 /* Footer */
 
 	#footer .copyright {
-		font-size: 0.8em;
+		font-size: 0.9em;
 		list-style: none;
-		padding-left: 0;
+		text-align: center;
 	}
 
 		#footer .copyright li {
 			border-left: solid 1px rgba(212, 212, 255, 0.1);
-			color: rgba(244, 244, 255, 0.2);
+			color: #ffffff;
 			display: inline-block;
 			line-height: 1;
-			margin-left: 1em;
-			padding-left: 1em;
 		}
-
-			#footer .copyright li:first-child {
-				border-left: 0;
-				margin-left: 0;
-				padding-left: 0;
-			}
 
 	@media screen and (max-width: 480px) {
 
@@ -3681,6 +3671,7 @@ input, select, textarea {
 			margin: 0 auto;
 			max-width: 65em;
 			width: calc(100% - 6em);
+			text-align: center;
 		}
 
 			@media screen and (max-width: 736px) {
@@ -3720,7 +3711,7 @@ input, select, textarea {
 		-ms-justify-content: center;
 		justify-content: center;
 		pointer-events: none;
-		background:  #ffba00 rgba(30, 41, 67, 0.9);
+		background:  #2a2f4a rgba(30, 41, 67, 0.9);
 		box-shadow: none;
 		height: 100%;
 		left: 0;
@@ -3800,7 +3791,7 @@ input, select, textarea {
 			-webkit-transition: color 0.2s ease-in-out;
 			-ms-transition: color 0.2s ease-in-out;
 			transition: color 0.2s ease-in-out;
-			-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+			-webkit-tap-highlight-color: #2a2f4a;
 			border: 0;
 			cursor: pointer;
 			display: block;
