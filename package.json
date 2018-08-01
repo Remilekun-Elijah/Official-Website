@@ -1,0 +1,29 @@
+{
+  "name": "teen-developers-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kingsley-einstein/Official-Website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kingsley-einstein/Official-Website/issues"
+  },
+  "homepage": "https://github.com/kingsley-einstein/Official-Website#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-mongo": "^2.0.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "fs": "0.0.1-security",
+    "mongoose": "^5.2.6",
+    "path": "^0.12.7"
+  }
+}
