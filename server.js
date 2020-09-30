@@ -7,5 +7,5 @@ app.set('main', __dirname);
 require('./settings').routeApp(app);
 
 app.listen(app.get('port'), () => {
-    console.log('Express server listening on port %d', app.get('port'));
+    console.log(`Server started on port ${app.get('port')}`);
 });
